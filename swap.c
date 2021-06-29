@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<cs50.h>
+
 
 
 void swap_max(int a[], int l, int n){
@@ -14,6 +14,7 @@ void swap_max(int a[], int l, int n){
       a[m]=a[n];
       a[n]=k;
     }
+  }
        
        return 0;
        }
